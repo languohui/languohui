@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.languohui.lgh.mapper.FacadeMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.languohui.lgh.domain.Facade">
+        <id column="id" property="id" />
+        <result column="code" property="code" />
+        <result column="longitude" property="longitude" />
+        <result column="latitude" property="latitude" />
+        <result column="fname" property="fname" />
+        <result column="adress" property="adress" />
+        <result column="phone" property="phone" />
+        <result column="fimg_code" property="fimgCode" />
+        <result column="isdelete" property="isdelete" />
+        <result column="fcontent" property="fcontent" />
+        <result column="opcode" property="opcode" />
+        <result column="fnum" property="fnum" />
+        <result column="teamcode" property="teamcode" />
+        <result column="merchantno" property="merchantno" />
+        <result column="terminal" property="terminal" />
+        <result column="token" property="token" />
+        <result column="lsddb" property="lsddb" />
+        <result column="ypdb" property="ypdb" />
+        <result column="lsqjdb" property="lsqjdb" />
+        <result column="jdfdb" property="jdfdb" />
+        <result column="jdmxdb" property="jdmxdb" />
+        <result column="lfhdb" property="lfhdb" />
+        <result column="lmmdb" property="lmmdb" />
+        <result column="jxyydb" property="jxyydb" />
+        <result column="iscity" property="iscity" />
+        <result column="tempteam" property="tempteam" />
+    </resultMap>
+
+</mapper>
